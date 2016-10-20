@@ -1,0 +1,18 @@
+<addon>
+	<name>Rap Tools</name>
+	<description>This is a test description</description>
+	<version>1.0.0</version>
+	<releasedate>02/03/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>raptools</addonfolder>
+	<author>rap-tools.com</author>
+	<copyright>Copyright 2010, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/raptools</producturl>
+	<installpackbase>raptools_install/GIS</installpackbase>
+	<tables>
+		<table>g_rapToolsOptions</table>
+	</tables>
+		
+</addon>

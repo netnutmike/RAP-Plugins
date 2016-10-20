@@ -1,0 +1,11 @@
+[28-Jul-2010 17:20:55] PHP Fatal error:  Call to undefined function  _e() in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/coolpop/product_options.php on line 42
+[28-Jul-2010 17:45:58] PHP Fatal error:  Call to undefined function  _e() in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/coolpop/product_options.php on line 33
+[28-Jul-2010 19:03:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/coolpop/product_options.php on line 201
+[28-Jul-2010 19:03:13] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/coolpop/product_options.php on line 207
+[17-Aug-2010 08:37:35] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/candybar/product_options.php on line 206
+[17-Aug-2010 08:37:35] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/candybar/product_options.php on line 212
+[17-Aug-2010 08:38:12] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/candybar/product_options.php on line 206
+[17-Aug-2010 08:38:12] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/candybar/product_options.php on line 212
+[17-Aug-2010 08:38:15] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/candybar/product_options.php on line 206
+[17-Aug-2010 08:38:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/candybar/product_options.php on line 212
+[17-Aug-2010 08:48:27] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/candybar/product_options.php on line 212

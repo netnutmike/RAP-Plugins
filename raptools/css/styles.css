@@ -1,0 +1,900 @@
+
+
+/* Div dimentions */
+
+#productslist { 
+	background-color:#FFFFFF;
+	/*display:inline;*/
+	/* width:300px; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#PageList { 
+	background-color:#FFFFFF;
+	/*display:inline;*/
+	/* width:300px; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#productdetails { 
+	background-color:#FFFFFF;
+	display:inline-block;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#Productname { 
+	background-color:#ffeebb;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 22pt;
+	font-weight:bold;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	
+}
+
+#ModuleDescription { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+
+#product-options-dis { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+
+#main-dis { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+
+#buttonrow { 
+	background-color:#FFFFFF;
+	display:table-row;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+}
+
+#taglist { 
+	background-color:#FFFFFF;
+	/*display:inline;*/
+	width:500px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#tagdetails { 
+	background-color:#FFFFFF;
+	display:inline-block;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#Tagname { 
+	background-color:#ffeebb;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 22pt;
+	font-weight:bold;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	
+}
+
+#TagDescription { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+#EditButton {
+	background: transparent url(../images/edit.png) no-repeat;
+	
+	width: 48px;
+	height: 48px;
+	
+}
+
+#CopyButton {
+	background: transparent url(../images/copy.png) no-repeat;
+	display:inline-block;
+	width: 48px;
+	height: 48px;
+	
+}
+
+#DeleteButton {
+	background: transparent url(../images/delete.png) no-repeat;
+	width: 48px;
+	height: 48px;
+	display:table-cell;
+}
+
+#tags {
+	font-size: 12pt;
+}
+
+/* File handler styles */
+#top {
+	width:674px;
+	height:110px;
+	margin:3px;
+	clip: rect(20px, 97px, 13px, 33px);
+	overflow:hidden;
+}
+
+#top div.text{
+	position:absolute;
+	overflow:hidden;
+	white-space:nowrap;
+	height:107px;
+	width:674px;
+}
+
+#top div.a0 {
+	font-size: 24px;
+	color:#92c3e1;
+	height:auto;
+	font-weight:bold;
+	text-align:center;
+	top:50px;
+}
+
+#top div.a1 {
+	font-size: 105px;
+	color:#f5faff;
+	line-height:13px;
+	text-indent: -100px;
+}
+
+#top div.a2 {
+	font-size: 305px;
+	color:#f8fbff;
+	line-height:65px;
+	text-indent: -170px;
+}
+
+#top div.a3 {
+	font-size: 40px;
+	color:#ecf4fd;
+	line-height:85px;
+	text-indent: -560px;
+
+}
+
+#top div.a4 {
+	font-size: 100px;
+	color:#f3f8fd;
+	line-height:185px;
+	text-indent: -460px;
+}
+
+#top div.a5 {
+	font-size:34px;
+	position:absolute;
+	top:0px;
+	left:0px;
+
+}
+
+#frame {
+	width:680px;
+	border: 1px dotted #CDD2D6;
+	text-align:left;
+	position: relative;
+	margin: 0 auto;
+}
+
+#error {
+	width:300px;
+	background-color:#FFE4E1;
+	font-size:14px;
+	color:#000000;
+	padding:7px;
+	position: relative;
+	margin: 10px auto;
+	text-align:center;
+	border: 1px dotted #CDD2D6;
+}
+
+input {
+	font-size:14px;
+	border: 1px solid #CDD2D6;
+}
+
+table.table {
+	width: 674px; 
+	font-size: 12px;
+	margin:3px;
+}
+
+table.table tr.row.one {
+	background-color:#fcfdfe;
+}
+
+table.table tr.row.two {
+	background-color:#f8f9fa;
+}
+
+table.table tr.row td.icon {
+	width:25px;
+}
+
+table.table tr.row td.size {
+	width: 100px; 
+	text-align: right;
+}
+
+table.table tr.row td.changed {
+	width: 150px;
+	text-align: center;
+}
+
+table.table tr.breadcrumbs td {
+	font-weight:bold;
+	color:#d7dade;
+	padding-left:6px;
+}
+
+table.table tr.breadcrumbs td a {
+	font-weight:bold;
+	color:#d7dade;
+}
+
+#upload {
+	color:#000000;
+	font-size:18px;
+	font-family: Georgia;
+	font-family: Arial;
+	position: relative;
+	margin: 0 auto;
+	text-align:left;
+}
+
+#upload input.text{
+	width:100px;
+}
+
+#upload td.password {
+	text-align:left;
+}
+
+#upload td.file {
+	text-align:left;
+}
+
+#upload div.password {
+	float:left;
+}
+
+#upload div.upload {
+	float:left;
+}
+
+#info {
+	color:#000000;
+	font-family:Georgia;
+	font-size:14px;
+	width:680px;
+	position: relative;
+	margin: 0 auto;
+	text-align:center;
+}
+
+/* yesno checkbox */
+
+.checklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.checklist li {
+   /* float: left; */
+    margin-right: 10px;
+    background: url(../images/checkboxbg.png) no-repeat 0 0;
+	background-position: 0 -35px;
+    width: 500px;
+    height: 35px;
+    position: relative; 
+    /* font: normal 11px/1.3 "Lucida Grande","Lucida","Arial",Sans-serif; */
+}
+ 
+.checklist li.selected {
+    background-position: 0 0;
+}
+ 
+.checklist li.selected .checkbox-select {
+    display: none;
+}
+ 
+.checkbox-select {
+    display: block;
+    float: left;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 45px;
+    height: 32px;
+    background: url(../images/delete32x32.png) no-repeat 0 0;
+    text-indent: -9999px;
+}
+ 
+.checklist li input {
+    display: none;
+}
+ 
+a.checkbox-deselect {
+    display: none;
+    color: black;
+    position: absolute;
+    top: 3px;
+	width: 45px;
+	height: 32px;
+    left: 10px;
+	background: url(../images/accept.png) no-repeat 0 0;
+    text-indent: -9999px;
+}
+ 
+.checklist li.selected a.checkbox-deselect {
+    display: block;
+}
+ 
+.checklist li label {
+    display: block;
+    text-align: left;
+	text-indent: 55px;
+    padding: 8px;
+}
+
+/* toggle checkbox */
+
+.checklist-toggle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.checklist-toggle li {
+   /* float: left; */
+    margin-right: 10px;
+    background: url(../images/togglegraphic2.png) no-repeat 0 0;
+	background-position: 0 -35px;
+    width: 500px;
+    height: 35px;
+    position: relative; 
+    /* font: normal 11px/1.3 "Lucida Grande","Lucida","Arial",Sans-serif; */
+}
+ 
+.checklist-toggle li.selected {
+    background-position: 0 0;
+}
+ 
+.checklist-toggle .checkbox-toggle-select {
+    display: block;
+   /* float: left; */
+   /* position: absolute; */
+    top: 3px;
+    left: 10px;
+    /* width: 45px; */
+    height: 32px; 
+	text-indent:5px; 
+    /*background: url(../images/delete32x32.png) no-repeat 0 0;
+    text-indent: -9999px; */
+}
+ 
+.checklist-toggle li input {
+    display: none;
+}
+ 
+a.checkbox-toggle-deselect {
+/*    display: none; */
+    color: black;
+  /*  position: absolute; */
+    top: 3px;
+	/*width: 45px; */
+	height: 32px;
+    left: 10px;
+	text-indent: 5px;
+	/* background: url(../images/accept.png) no-repeat 0 0;
+    text-indent: -9999px; */
+}
+ 
+.checklist-toggle li.selected a.checkbox-deselect {
+    display: block;
+}
+ 
+.checklist-toggle li label {
+    display: block;
+    text-align: left;
+	text-indent: 55px;
+    padding: 8px;
+}
+
+/* menu */
+
+.rt-menu {
+     list-style-type: none;
+     list-style-position:outside;
+     position: relative;
+     margin: 0;
+     padding: 0;
+ }
+ 
+
+/* remove bullets and paddings */ 
+.rt-menu li{
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+    float: left;
+    width: 135px;
+    height: 40px;
+    margin-right: 0px;
+    background-image:url(../images/menu_sprite.jpg);
+    background-repeat:no-repeat;
+}
+
+/* hide the text for the list and set height */
+.rt-menu a{
+	display:block;
+	height:40px;
+	text-indent:-9999px;
+	outline:none;
+}
+
+
+#rt-menu11 {
+	background-position:0px 0px;
+}
+
+#rt-menu2 {
+	background-position:-135px 0px;
+}
+
+#rt-menu3 {
+	background-position:-270px 0px;
+}
+
+#rt-menu4 {
+	background-position:-405px 0px;
+}
+
+#rt-menu5 {
+	background-position:-540px 0px;
+}
+
+#rt-menu6 {
+	background-position:-675px 0px;
+}
+
+#rt-menu1.active, #rt-menu1:hover {
+	background-position: 0 bottom;
+}
+
+#rt-menu2.active, #rt-menu2:hover{
+	background-position: -135px bottom;
+}
+
+#rt-menu3.active, #rt-menu3:hover {
+	background-position: -270px bottom;
+}
+
+#rt-menu4.active, #rt-menu4:hover {
+	background-position: -405px bottom;
+}
+
+#rt-menu5.active, #rt-menu5:hover {
+	background-position: -540px bottom;
+}
+
+#rt-menu6.active, #rt-menu6:hover {
+	background-position: -675px bottom;
+}
+
+
+/* Rounded Box CSS */
+div.rounded-box-green {
+    width: 100%;
+    background-color: #bbffbb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+div.rounded-box-red {
+    width: 100%;
+    background-color: #ffbbbb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+div.rounded-box {
+    width: 95%;
+    background-color: #ffeebb;
+    margin: 10px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+
+
+#submit{
+	font-weight:bold; 
+	font-size:14pt; 
+	padding:2px 15px 5px 15px; 
+	background-color:light-green; 
+	border:4px green solid;
+	height:40px
+}
+
+#cancel{
+	font-weight:bold; 
+	font-size:14pt; 
+	padding:2px 15px 5px 15px; 
+	background-color:light-red; 
+	border:4px red solid;
+	height:40px
+}
+
+
+input, select{
+	font-size:14pt; 
+	padding:2px
+}
+
+
+/* link formatting */
+
+a:active { 
+	outline: none; 
+}
+
+a:focus { 
+	-moz-outline-style: none; 
+}
+
+.subhead-big
+{
+	text-transform: capitalize;
+	font-family: "Trebuchet MS";
+	font-family: Tahoma;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.subhead-medium
+{
+	text-transform: capitalize;
+	font-family: "Trebuchet MS";
+	font-family: Tahoma;
+	font-size: 12pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.georgia-big
+{
+	text-transform: capitalize;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+
+
+.georgia {
+	font-family: Georgia;
+}
+
+.titles-big {
+	color: #333;
+	font-size: 24px;
+	margin-bottom:12px;
+}
+
+.paragraph-text {
+	font-size: 16px;
+}
+
+span.subheading-section {
+	text-transform: capitalize;
+	font-family: Georgia;
+	font-size: 16pt;
+}
+
+
+div.admin_cron {
+	background: transparent url(../images/clock.png) no-repeat 0px 0px;
+	padding-left: 55px;
+	display:block;
+	width: 33px;
+	height: 33px;
+}
+
+div.admin_backup {
+	background: transparent url(../images/save32x32.png) no-repeat 0px 0px;
+	padding-left: 55px;
+	display:block;
+	width: 33px;
+	height: 33px;
+}
+
+div.gis-container-global, div.gis-container-products {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+div.gis-section2 {
+	background: transparent url(../images/2265500_1253295923_master.png) repeat-x;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+/* font styling */
+.b { 
+	font-weight: bold;
+}
+
+.i { 
+	font-style: italic; 
+}
+
+/* div widths */
+.width-500 {
+	width: 500px;
+}
+
+.width-465 {
+	width: 465px;
+}
+
+div.gis-container-global, div.gis-container-products {
+	border-bottom: 1px dotted silver;
+}
+
+div.gis-content {
+	margin-left: 0px;
+}
+
+.clear-fix {
+	clear:both;
+}
+
+.hilite-yellow{ 
+	background-color:#ffffcc; 
+	border:1px dotted silver;
+}
+
+.hilite-yellow-noborder{ 
+	background-color:#ffffcc; 
+	border:0px dotted silver;
+}
+
+
+
+
+/* Alignment Classes */
+.tright { 
+	text-align: right; 
+}
+
+.tleft { 
+	text-align: left; 
+}
+
+.right { 
+	float: right; 
+}
+
+.left { 
+	float: left; 
+}
+
+.content-wrapper { 
+	width: 100%; 
+}
+
+.content-wrapper { 	
+	clear: both; 
+}
+
+.main { 
+	text-align: left; 
+ 	margin-bottom: 20px; 
+}
+
+/* margins and padding */
+.margin-tb-15 { 
+	margin-top: 	15px; 
+	margin-bottom: 	15px; 
+}
+
+.padding-rl-20 { 
+	padding-right:	20px;  
+	padding-left:	20px; 
+}
+
+.padding-rl-10 { 
+	padding-right:	10px;  
+	padding-left:	10px; 
+}
+
+/* colors */
+.gray { 
+	color: #888; 
+}
+
+.darkred { 
+	color: #cc0000; 
+}
+
+.brightblue { 
+	color: #0fbbff; 
+}
+
+.green{
+	color:green
+}
+
+.red{
+	color:red
+}
+
+
+/*----------------------------------------------
+
+		rnded corner buttons
+
+------------------------------------------------*/
+
+
+.smallbutton-text {
+	font-family: 'Trebuchet MS',Arial,Georgia;
+	font-size: 12pt;
+	line-height: 130%;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+/* for large buttons */
+.image, .image-medium, .image-small {
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	padding: 5px 5px;
+}
+
+.image img {
+	display: block;
+}
+
+
+
+
+/* simple pager jquery css */
+
+ul.simplePagerNav li{
+    display:block;
+    float: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS";
+	font-size: 11pt;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+ul.simplePagerNav li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li.currentPage {
+	background: red;
+    background: #83bd63;	
+}
+
+ul.simplePagerPerPage li{
+    display:block;
+    float: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS";
+	font-size: 11pt;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+ul.simplePagerPerPage li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li.currentPerPage {
+	background: #cc0000;
+	background: #3DB3C2;
+/*
+    background: #83bd63;	
+*/
+}
+
+ul.simplePagerNav li.currentPage a, ul.simplePagerPerPage li.currentPerPage a {
+	color: #fff;	
+}
+
+table.pageme {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}  
+
+table.pageme td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}      
+

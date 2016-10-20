@@ -1,0 +1,6 @@
+in here
+pre sys_item_price:
+customfield[4]
+customfield[5]
+discount code: 
+sys_item_price:

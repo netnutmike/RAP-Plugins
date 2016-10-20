@@ -1,0 +1,17 @@
+<addon>
+	<name>Clickbank For RAP</name>
+	<description>Clickbank for RAP allows you to promote a product in both RAP and Clickbank.  This is a great addon if you have been using Clickbank and want to move to the instant commission model.</description>
+	<version>1.0.0</version>
+	<releasedate>02/03/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>clickbank</addonfolder>
+	<author>rap-tools.com</author>
+	<copyright>Copyright 2010, rap-tools.com, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/clickbank</producturl>
+	<installpackbase>clickbank_install/GIS/clickbank</installpackbase>
+	<tables>
+		<table>g_clickbank</table>
+	</tables>
+</addon>

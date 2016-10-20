@@ -1,0 +1,14 @@
+<addon>
+	<name>Tell-A-Friend</name>
+	<description>The Tell-A-Friend addon shows a tell a friend tab on the left side of every page so the tell a friend emails can be sent from anywhere, not just the download page.</description>
+	<version>1.0.0</version>
+	<releasedate>03/09/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>taf</addonfolder>
+	<author>rap-tools.com</author>
+	<copyright>Copyright 2010, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/taf</producturl>
+	<installpackbase>taf_install/GIS</installpackbase>	
+</addon>

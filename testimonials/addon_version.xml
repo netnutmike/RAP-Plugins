@@ -1,0 +1,19 @@
+<addon>
+	<name>Testimonials</name>
+	<description>Testimonials is an easy to use manager of your product testimonials.  It also allows your customers to submit their own testimonials.  You can setup your testimonials on the page to be random or static.</description>
+	<version>1.0.0</version>
+	<releasedate>02/25/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>testimonials</addonfolder>
+	<author>rap-tools.com</author>
+	<copyright>Copyright 2010, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/testimonials</producturl>
+	<installpackbase>testimonials_install/GIS</installpackbase>
+	<tables>
+		<table>g_testimonials</table>
+		<table>g_testimonialOptions</table>
+	</tables>
+		
+</addon>

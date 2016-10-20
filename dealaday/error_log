@@ -1,0 +1,4 @@
+[10-Nov-2010 17:33:31] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/rapdev/public_html/rap_admin/addons/GIS/dealaday/product_options.php on line 79
+[10-Nov-2010 17:33:31] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/rapdev/public_html/rap_admin/addons/GIS/dealaday/product_options.php on line 85
+[10-Nov-2010 17:39:06] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/rapdev/public_html/rap_admin/addons/GIS/dealaday/product_options.php on line 79
+[10-Nov-2010 17:39:06] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/rapdev/public_html/rap_admin/addons/GIS/dealaday/product_options.php on line 85

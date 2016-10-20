@@ -1,0 +1,18 @@
+<addon>
+	<name>Editor For RAP</name>
+	<description>Editor for RAP is an addon for RAP that allows you to edit your template files from directly within the RAP admin panel.</description>
+	<version>1.0.4</version>
+	<releasedate>07/21/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>editor</addonfolder>
+	<author>rap-tools.com</author>
+	<copyright>Copyright 2010, rap-tools.com, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/editor</producturl>
+	<installpackbase>editor_install/GIS/editor</installpackbase>
+	<tables>
+		<table>template_files</table>
+		<table>tokens</table>
+	</tables>
+</addon>

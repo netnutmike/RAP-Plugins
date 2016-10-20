@@ -1,0 +1,20 @@
+=-=Installation=-=
+
+===Downloading===
+
+Well, if you are reading this then you probably already figured out how to download the  files that are needed.  However, just a reminder, you were provided the opportunity to download the software when you purchased the add-on.  You were also added to a membership based site so that you can download the latest files at any time.  To access this site simply go to rap-tools.com/members.  If you have purchased multiple products from us then you will have access to the latest files for all of the products that you have purchased from this site.
+
+===Unpacking===
+
+When you download the zip that contains all of the files you will have a main directory called taf_install.  Inside of that folder you will find the install.txt file that is the text version of this chapter with installation instructions.  You will also find a directory called GIS.  Inside of GIS is a directory called taf.
+
+===Uploading===
+
+It is important to understand how RAP needs to see add-ons for them to work properly.  Every add-on needs to be placed in a special directory under the rap_admin directory.  You need to upload the files for the tell a friend addon to these directories.
+
+Under the rap_admin directory there is a directory called addons.  Inside of addons there is a directory for every company that makes an addon and inside of  each of those folders is a folder for each addon.
+
+So the contents that are in GIS/taf in the archive file need to go into the rap_admin/addons/GIS/taf directory in your installation of RAP.  
+
+I am assuming that you already have the knowledge on how to upload the files to your site.
+

@@ -1,0 +1,17 @@
+<addon>
+	<name>Exit-Lane For RAP</name>
+	<description>Exit-Lane for RAP Predictive Exit addon that presents the visitor with a popover window when they are about to leave the page.</description>
+	<version>1.0.0</version>
+	<releasedate>06/03/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>exitlane</addonfolder>
+	<author>rap-tools.com</author>
+	<copyright>Copyright 2010, rap-tools.com, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/exitlane</producturl>
+	<installpackbase>exitlane_install/GIS/exitlane</installpackbase>
+	<tables>
+		<table>g_ExitLane</table>
+	</tables>
+</addon>

@@ -1,0 +1,19 @@
+<addon>
+	<name>Cloaker</name>
+	<description>Cloaker is a link cloaker that is built in to the RAP admin interface.  It does more than just cloak links too.  It has a very complete statistics system for tracking your cloaked links too.</description>
+	<version>1.0.0</version>
+	<releasedate>02/18/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>cloaker</addonfolder>
+	<author>rap-tools.com</author>
+	<copyright>Copyright 2010, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/cloaker</producturl>
+	<installpackbase>cloaker_install/GIS</installpackbase>
+	<tables>
+		<table>g_cloakerOptions</table>
+		<table>g_cloakerTracking</table>
+	</tables>
+		
+</addon>

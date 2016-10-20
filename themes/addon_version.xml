@@ -1,0 +1,18 @@
+<addon>
+	<name>Theme Engine</name>
+	<description>This addon allows you to implement themes across your entire RAP site.  It is very flexible on a global and per product basis.  A built in editor allows you to edit the themes right from the RAP admin interface.</description>
+	<version>1.0.0</version>
+	<releasedate>06/12/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>themes</addonfolder>
+	<author>Rap-Tools</author>
+	<copyright>Copyright 2010, Genius Idea Studio, LLC and Wing Enterprises</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/themes</producturl>
+	<installpackbase>themes_install/GIS</installpackbase>
+	<tables>
+		<table>g_themeOptions</table>
+	</tables>
+		
+</addon>

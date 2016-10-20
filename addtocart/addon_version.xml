@@ -1,0 +1,19 @@
+<addon>
+	<name>Add To Cart</name>
+	<description>This addon creates a graphic add to cart belcher button with number of copies left and special pricing.  Can easily be posted in forums (warrior forum for example) and emails.</description>
+	<version>1.0.0</version>
+	<releasedate>04/28/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>addtocart</addonfolder>
+	<author>Rap-Tools.com</author>
+	<copyright>Copyright 2010, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/addtocart</producturl>
+	<installpackbase>themes_install/GIS</installpackbase>
+	<tables>
+		<table>g_addToCart</table>
+		<table>g_addToCartBumps</table>
+	</tables>
+		
+</addon>

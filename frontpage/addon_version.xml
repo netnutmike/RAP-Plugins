@@ -1,0 +1,20 @@
+<addon>
+	<name>Frontpage for RAP</name>
+	<description>This addon creates a flexible frontpage for your RAP site.  </description>
+	<version>1.0.0</version>
+	<releasedate>03/28/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>frontpage</addonfolder>
+	<author>Rap-Tools.com</author>
+	<copyright>Copyright 2010, Genius Idea Studio, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/frontpage</producturl>
+	<installpackbase>frontpage_install/GIS</installpackbase>
+	<tables>
+		<table>g_FPModules</table>
+		<table>g_FPSectionModules</table>
+		<table>g_FPSections</table>
+	</tables>
+		
+</addon>

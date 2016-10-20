@@ -1,0 +1,788 @@
+
+
+/* Div dimentions */
+
+#filelist { 
+	background-color:#FFFFFF;
+	/*display:inline;*/
+	width:300px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#filedetails { 
+	background-color:#FFFFFF;
+	display:inline-block;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#Filename { 
+	background-color:#ffeebb;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 22pt;
+	font-weight:bold;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	
+}
+
+#FileDescription { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+
+#buttonrow { 
+	background-color:#FFFFFF;
+	display:table-row;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+}
+
+#taglist { 
+	background-color:#FFFFFF;
+	/*display:inline;*/
+	width:500px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#tagdetails { 
+	background-color:#FFFFFF;
+	display:inline-block;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#Tagname { 
+	background-color:#ffeebb;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 22pt;
+	font-weight:bold;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	
+}
+
+#TagDescription { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+#EditButton {
+	background: transparent url(../images/edit.png) no-repeat;
+	
+	width: 48px;
+	height: 48px;
+	
+}
+
+#CopyButton {
+	background: transparent url(../images/copy.png) no-repeat;
+	display:inline-block;
+	width: 48px;
+	height: 48px;
+	
+}
+
+#DeleteButton {
+	background: transparent url(../images/delete.png) no-repeat;
+	width: 48px;
+	height: 48px;
+	display:table-cell;
+}
+
+#tags {
+	font-size: 12pt;
+}
+
+/* Rounded Box CSS */
+div.rounded-box-green {
+    width: 80%;
+    background-color: #bbffbb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+div.rounded-box-red {
+    width: 80%;
+    background-color: #ffbbbb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+div.rounded-box {
+    width: 80%;
+    background-color: #ffeebb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+div.top-left-corner, div.bottom-left-corner,
+div.top-right-corner, div.bottom-right-corner
+{position:absolute; width:20px; height:20px;
+background-color:#FFF; overflow:hidden;}
+div.top-left-inside, div.bottom-left-inside,
+div.top-right-inside, div.bottom-right-inside
+{position:relative; font-size:150px; font-family:arial;
+color:#E6E6E6; line-height: 40px;}
+div.top-left-corner { top:0px; left:0px; }
+div.bottom-left-corner {bottom:0px; left:0px;}
+div.top-right-corner {top:0px; right:0px;}
+div.bottom-right-corner {bottom: 0px; right:0px;}
+div.top-left-inside {left:-8px;}
+div.bottom-left-inside {left:-8px; top:-17px;}
+div.top-right-inside {left:-25px;}
+div.bottom-right-inside {left:-25px; top:-17px;}
+div.box-contents {
+	position: relative; padding: 8px; color:#000;
+}
+
+#submit{font-weight:bold; font-size:14pt; padding:2px 15px 5px 15px; background-color:light-green; border:4px green solid;height:40px}
+#cancel{font-weight:bold; font-size:14pt; padding:2px 15px 5px 15px; background-color:light-red; border:4px red solid;height:40px}
+.colorbox_green{border-top:2px green solid; border-bottom:2px green solid; background-color:#D9FD8E; padding:5px 0px 5px 0px; margin:3px 0px 5px 0px}
+.green{color:green}
+.red{color:red}
+/*
+.colorbox_red{border-top:2px red solid; border-bottom:2px red solid; background-color:#FFD0D0; padding:5px 0px 5px 0px; margin:3px 0px 5px 0px}
+*/
+.colorbox_blue {
+	padding-top:10px; 
+	padding-bottom:20px; 
+	border-top: 1px solid #0fbbff;
+	border-bottom: 1px solid #0fbbff;
+	background: #EFFEFE;
+}
+.greenbg { background-color: #EFFFE0; }
+
+HR.dotted{width:100%; margin:10px 0 15px 0; border-top:0; border-bottom:2px dotted #aaa}
+HR.lined{width:100%; margin:10px 0 15px 0; border-top:0; border-bottom:2px solid #aaa}
+
+input, select{font-size:14pt; padding:2px}
+
+span.emphasis{font-weight:bold}
+.small{font-size:10pt}
+.subheading{font-size:12pt; font-weight:bold}
+.largesubheading{font-size:16pt; font-weight:bold}
+span.gray{font-weight:normal; color:#777}
+
+.i { font-style: italic; }
+
+.dotted-border { border: 1px dotted silver; }
+.b-red { border-color: red; }
+.b-orange { border-color: orange; }
+
+div.wpcontainer {
+	padding-top:10px; 
+	padding-bottom:20px; 
+	border-top: 2px solid #0fbbff;
+	border-bottom: 2px solid #0fbbff;
+	background: #C7F2FE url(../images/wp-tilt-25-inv.png) no-repeat -25% 120px;
+}
+div.extraoptions-buttons span.addon-title {
+	font-size: 12pt;
+}
+
+a:active { outline: none; }
+a:focus { -moz-outline-style: none; }
+
+
+.colorbox_red {
+	border-top: 1px red solid;
+	border-bottom: 1px red solid;
+	background-color: #FFD0D0;
+	padding: 5px 20px 5px 20px;
+	margin: 3px 0px 5px 0px;
+}
+.colorbox_red_nopad {
+	border-top: 1px red solid;
+	border-bottom: 1px red solid;
+	background-color: #FFD0D0;
+	padding: 5px 0px 5px 0px;
+	margin: 3px 0px 5px 0px;
+}
+.colorbox_green {
+	border-top: 1px green solid;
+	border-bottom: 1px green solid;
+	background-color: #D9FD8E;
+	padding: 5px 0px 5px 0px;
+	margin: 3px 0px 5px 0px;
+}
+.colorbox_orange {
+	border-top: 1px orange solid;
+	border-bottom: 1px orange solid;
+	background-color: #ffeebb;
+	padding: 5px 0px 5px 0px;
+	margin: 3px 0px 5px 0px;
+}
+.colorbox_blue {
+	padding-top:10px; 
+	padding-bottom:20px; 
+	border-top: 1px solid #0fbbff;
+	border-bottom: 1px solid #0fbbff;
+	background: #EFFEFE;
+}
+
+
+
+.largesubheading
+{
+	text-transform: capitalize;
+	font-family: "Trebuchet MS";
+	font-family: Tahoma;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.biggeorgia
+{
+	text-transform: capitalize;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+
+
+.georgia {
+	font-family: Georgia;
+}
+
+.unb {
+	font-weight:normal;
+}
+
+.trebby, .trebby-1
+{
+	font-family: "Trebuchet MS";
+}
+.trebby-1
+{
+	letter-spacing: -1px;
+}
+.subheading
+{
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.sillylargetitles, .subHeaderBand-Inner .title {
+	font-family: "Trebuchet MS",Arial;
+	color: #333;
+	font-size: 28pt;
+	margin-bottom:12px;
+	font-weight: bold;
+	letter-spacing: -0.07em;
+}
+.superbigtitles {
+	color: #333;
+	font-size: 22pt;
+	margin-bottom:12px;
+}
+.bigtitles {
+	color: #333;
+	font-size: 24px;
+	margin-bottom:12px;
+}
+.mediumtitles {
+	color: #333;
+	font-size: 18px;
+	margin-bottom:8px;
+}
+.smalltitles {
+	color: #333;
+	font-size: 12pt;
+	margin-bottom:4px;
+}
+.verysmalltitles {
+	color: #333;
+	font-size: 10pt;
+	margin-bottom:1px;
+}
+
+.lh95 { line-height: 95%; }
+.lh90 { line-height: 90%; }
+
+
+span.section-subheading {
+	text-transform: capitalize;
+	font-family: Georgia;
+	font-size: 16pt;
+}
+
+
+div.product-row, div.account-row, div.product-row-no-graphic, div.account-row-no-graphic {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 5px;
+}
+
+div.accounts-admin {
+	border-bottom: 1px dotted silver;
+}
+
+div.admin_small {
+	background: transparent url(../images/Folder%20Open.png) no-repeat 0px 0px;
+	padding-left: 55px;
+	display:block;
+	width: 33px;
+	height: 33px;
+}
+
+div.admin_edit {
+	background: transparent url(../images/Applications%202.png) no-repeat 0px 0px;
+	padding-left: 55px;
+	display:block;
+	width: 33px;
+	height: 33px;
+}
+
+.readonlyinput {
+	border: 1px solid #fff;
+	color: #555;
+}
+
+div.gis-container-global, div.gis-container-products, div.gis-section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+
+div.gis-section {
+	background: transparent url(../images/2265500_1253295923_master.png) repeat-x;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+div.istrailcolors {
+	color: #777;
+}
+
+
+.b { font-weight: bold;}
+
+div.gis-container-global, div.gis-container-products {
+	border-bottom: 1px dotted silver;
+}
+
+div.gis-content {
+	margin-left: 0px;
+}
+
+div.save,div.cancel,div.manage,div.add-new-product,div.add-new,div.cancel-new,div.count,div.save-new,div.edit,div.delete {
+	font-family: "trebuchet ms",arial;
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: bold;
+	float:left;
+	margin: 2px 5px;
+}
+div.userid, div.pwd {
+	float:left;
+}
+div.k-desc {
+	width: 45%;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.hilite-yellow{ background-color:#ffffcc; border:1px dotted silver;}
+.hilite-yellow-noborder{ background-color:#ffffcc; border:0px dotted silver;}
+
+
+.pointer {
+	cursor: pointer;
+	_cursor: hand;
+}
+
+
+
+
+
+.tright { text-align: right; }
+.tleft { text-align: left; }
+
+.right { float: right; }
+.left { float: left; }
+
+.content-wrapper { width: 100%; }
+.content-wrapper { clear: both; }
+
+.main, .sidebar { text-align: left; }
+.main { margin-bottom: 20px; }
+.sidebar { margin-bottom: 14px; }
+
+.content-inner { text-align:left; clear: both; width: 100%;}
+
+.content-w11 .main { width: 48%; margin-right: 15px; }
+.content-w11 .sidebar { width: 48%; }
+
+.content-w23 .main { width: 57%; margin-right: 15px; }
+.content-w23 .sidebar { width: 40%; }
+.content-w32 .main { width: 40%; margin-right: 15px; }
+.content-w32 .sidebar { width: 57%; }
+
+
+.content-w21 .main { width: 65%; margin-right: 15px; }
+.content-w21 .sidebar { width: 30%; }
+.content-w12 .main { width: 30%; margin-right: 15px; float: left;}
+.content-w12 .sidebar { width: 65%;  float: right;}
+
+.content-w31 .main { width: 73%; margin-right: 15px; }
+.content-w31 .sidebar { width: 23%; }
+.content-w13 .main { width: 23%; margin-right: 15px; }
+.content-w13 .sidebar { width: 73%; }
+
+.content-w51 .main { width: 80%; margin-right: 15px; }
+.content-w51 .sidebar { width: 14%; }
+.content-w15 .main { width: 14%; margin-right: 15px; }
+.content-w15 .sidebar { width: 80%; }
+
+.content-w41 .main { width: 78%; margin-right: 15px; }
+.content-w41 .sidebar { width: 18%; }
+.content-w14 .main { width: 18%; margin-right: 15px; }
+.content-w14 .sidebar { width: 78%; }
+
+.content-w131 .main { width: 60%; margin-right: 10px; }
+.content-w131 .sidebar { width: 19%; }
+
+.content-w121 .main { width: 50%; margin-right: 10px; }
+.content-w121 .sidebar { width: 24%; }
+
+.content-w221 .main { width: 38%; margin-right: 10px; }
+.content-w221 .sidebar { width: 20%; }
+
+.content-w332 .main { width: 36%; margin-right: 10px; }
+.content-w332 .sidebar { width: 24%; }
+
+.content-w35 .main { width: 35%; padding-left: 15px; }
+.content-w35 .sidebar { width: 60%; }
+
+.content-w911 .main { width: 45%; }
+.content-w911 .sidebar { width: 53%; }
+
+.ptb20 { padding-top: 20px; padding-bottom: 20px; }
+.ptb30 { padding-top: 30px; padding-bottom: 30px; }
+
+.mtb10 { margin-top: 10px; margin-bottom: 10px; }
+.mtb15 { margin-top: 15px; margin-bottom: 15px; }
+.mtb20 { margin-top: 20px; margin-bottom: 20px; }
+.mtb30 { margin-top: 30px; margin-bottom: 30px; }
+
+.mrl10 { margin-right: 10px; margin-left: 10px; }
+.mrl20 { margin-right: 20px; margin-left: 20px; }
+.mrl30 { margin-right: 30px; margin-left: 30px; }
+
+.padrl-30 { padding-right:   30px;  padding-left:   30px; }
+.padrl-20 { padding-right:   20px;  padding-left:   20px; }
+.padrl-15 { padding-right:   15px;  padding-left:   15px; }
+.padrl-10 { padding-right:   10px;  padding-left:   10px; }
+
+.padtb-30 { padding-top:   30px;  padding-bottom:   30px; }
+.padtb-20 { padding-top:   20px;  padding-bottom:   20px; }
+.padtb-15 { padding-top:   15px;  padding-bottom:   15px; }
+.padtb-10 { padding-top:   10px;  padding-bottom:   10px; }
+
+.mb5 { margin-bottom: 3px; }
+
+.gray { color: #888; }
+.darkred, .darkerred { color: #cc0000; }
+.brightblue { color: #0fbbff; }
+
+
+
+/*----------------------------------------------
+
+		rnded corner buttons
+
+------------------------------------------------*/
+
+
+.smallbutton-text {
+	font-family: 'Trebuchet MS',Arial,Georgia;
+	font-size: 12pt;
+	line-height: 130%;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+/* for large buttons */
+.image, .image-medium, .image-small {
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	padding: 5px 5px;
+}
+
+.image img {
+	display: block;
+}
+.image span {
+	width: 9px;
+	height: 9px;
+	font-size: 0;
+/*
+	background-image: #333 url(http://quickbannerads.com/images/xtra/invbutton_large.png);
+*/
+	position: absolute;
+}
+.image span.tl {
+	top: 0;
+	left: 0;	
+}
+.image span.tr {
+	top: 0;
+	right: 0;
+	background-position: -9px 0;	
+}
+.image span.bl {
+	bottom: 0;
+	left: 0;
+	background-position: 0 9px;	
+}
+.image span.br {
+	bottom: 0;
+	right: 0;
+	background-position: -9px 9px;
+}
+
+
+
+.image-medium-inv {
+	position: relative;
+	float: left;
+	margin-right: 0px;
+	padding: 5px 4px;
+}
+.image-medium-inv img {
+	display: block;
+}
+
+.image-medium-inv > span {
+	width: 6px;
+	height: 6px;
+	font-size: 0;
+	background-color: transparent;
+/*
+	background-image: url(http://rapbank.com/rap_admin/addons/extrakick/kunaki/images/invbutton_medium_inv.png);
+*/
+	position: absolute;
+}
+
+.image-medium-inv span.tl-inv {
+	top: 0;
+	left: 0;	
+}
+.image-medium-inv span.tr-inv {
+	top: 0;
+	right: 0;
+	background-position: -6px 0;	
+}
+.image-medium-inv span.bl-inv {
+	bottom: 0;
+	left: 0;
+	background-position: 0 6px;	
+}
+.image-medium-inv span.br-inv {
+	bottom: 0;
+	right: 0;
+	background-position: -6px 6px;
+}
+
+/* for medium buttons */
+.image-medium img {
+	display: block;
+}
+.image-medium > span {
+	width: 6px;
+	height: 6px;
+	font-size: 0;
+	position: absolute;
+}
+.image-medium span.tl {
+	top: 0;
+	left: 0;	
+}
+.image-medium span.tr {
+	top: 0;
+	right: 0;
+	background-position: -6px 0;	
+}
+.image-medium span.bl {
+	bottom: 0;
+	left: 0;
+	background-position: 0 6px;	
+}
+.image-medium span.br {
+	bottom: 0;
+	right: 0;
+	background-position: -6px 6px;
+}
+
+
+
+/* for small buttons */
+.image-small img {
+	display: block;
+}
+.image-small span {
+	width: 4px;
+	height: 4px;
+	font-size: 0;
+	position: absolute;
+}
+.image-small span.tl {
+	top: 0;
+	left: 0;	
+}
+.image-small span.tr {
+	top: 0;
+	right: 0;
+	background-position: -4px 0;	
+}
+.image-small span.bl {
+	bottom: 0;
+	left: 0;
+	background-position: 0 4px;	
+}
+.image-small span.br {
+	bottom: 0;
+	right: 0;
+	background-position: -4px 4px;
+}
+
+
+
+* html .tr {
+	right: -1px;	
+}
+* html .bl {
+	bottom: -1px;	
+}
+* html .br {
+	bottom: -1px;
+	right: -1px;	
+}
+
+div.live {
+	color: black; 
+	background: #F67D08;
+	background: #093256; color: white;
+}
+
+
+
+
+/* simple pager jquery css */
+
+ul.simplePagerNav li{
+    display:block;
+    float: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS";
+	font-size: 11pt;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+ul.simplePagerNav li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li.currentPage {
+	background: red;
+    background: #83bd63;	
+}
+
+ul.simplePagerPerPage li{
+    display:block;
+    float: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS";
+	font-size: 11pt;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+ul.simplePagerPerPage li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li.currentPerPage {
+	background: #cc0000;
+	background: #3DB3C2;
+/*
+    background: #83bd63;	
+*/
+}
+
+ul.simplePagerNav li.currentPage a, ul.simplePagerPerPage li.currentPerPage a {
+	color: #fff;	
+}
+
+table.pageme {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}  
+
+table.pageme td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}      
+

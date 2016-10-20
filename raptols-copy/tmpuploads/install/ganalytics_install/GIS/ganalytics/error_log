@@ -1,0 +1,2 @@
+[29-Dec-2009 10:06:11] PHP Parse error:  syntax error, unexpected '}' in /home/netnutmi/public_html/mikesplayarea.com/rap/rap_admin/addons/GIS/ganalytics/global_options.php on line 90
+[29-Dec-2009 10:14:28] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/mikesplayarea.com/rap/rap_admin/addons/GIS/ganalytics/global_options.php on line 79

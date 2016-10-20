@@ -1,0 +1,19 @@
+<addon>
+	<name>Auto Opt-in For RAP</name>
+	<description>This addon allows you to implement More Auto Opt-ins than is available in RAP by default.  It is very flexible on a global and per product basis.  </description>
+	<version>1.0.0</version>
+	<releasedate>06/12/2010</releasedate>
+	<companyfolder>GIS</companyfolder>
+	<addonfolder>autooptin</addonfolder>
+	<author>Rap-Tools.com</author>
+	<copyright>Copyright 2010, Rapid Action Pros, LLC</copyright>
+	<updateurl>http://www.rap-tools.com/members</updateurl>
+	<support>http://askmikemyers.com</support>
+	<producturl>http://www.rap-tools.com/autooptin</producturl>
+	<installpackbase>autooptin_install/GIS</installpackbase>
+	<tables>
+		<table>g_autoResponderOptions</table>
+		<table>g_autoResponderGroups</table>
+	</tables>
+		
+</addon>

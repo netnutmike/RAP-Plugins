@@ -1,0 +1,13 @@
+
+	<?php echo $minimember_js; ?>
+	<?php echo $minimember_css; ?>
+
+	<div class=minimember_errors style='display:<?php echo (empty($minimember_error_message)) ? "none" : "block" ; ?>;'>
+		<?php echo $minimember_error_message; ?>
+		<div style='clear:both;'></div>
+	</div>
+
+	<div id="pswd-set-disp">
+		<input type="text" name="pswd-set" id="pswd-set" ><br>
+		<input type="button" name="submit" id="submit" value="Save" onClick="javascript:aSave();"/>
+	</div>";

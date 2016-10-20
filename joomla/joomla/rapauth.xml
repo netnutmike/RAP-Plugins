@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="authentication">
+    <name>RAP - Membership</name>
+    <author>Mike Myers</author>
+    <creationDate>March 29, 2010</creationDate>
+    <copyright>(C) 2010 Rap-Tools.com, Genius Idea Studio, LLC. All rights reserved.</copyright>
+    <license>http://www.rap-tools.com/license</license>
+    <authorEmail>mike@mikemyers.me</authorEmail>
+    <authorUrl>www.rap-tools.com</authorUrl>
+    <version>1.0</version>
+    <description>A Membership Plugin That Ties RAP(Rapid Action Profits) to Joomla</description>
+    <files>
+        <filename plugin="myauth">myauth.php</filename>
+    </files>
+    <params/>
+</install>

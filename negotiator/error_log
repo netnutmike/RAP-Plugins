@@ -1,0 +1,8 @@
+[10-Mar-2010 15:26:10] PHP Warning:  Wrong parameter count for mysql_num_rows() in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 124
+[10-Mar-2010 15:26:10] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 132
+[10-Mar-2010 15:27:49] PHP Warning:  Wrong parameter count for mysql_num_rows() in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 124
+[10-Mar-2010 15:27:49] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 132
+[10-Mar-2010 15:28:38] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 132
+[11-Mar-2010 10:32:24] PHP Fatal error:  Can't use function return value in write context in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 272
+[11-Mar-2010 10:32:34] PHP Fatal error:  Can't use function return value in write context in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 272
+[11-Mar-2010 10:32:35] PHP Fatal error:  Can't use function return value in write context in /home/netnutmi/public_html/rapdevarea.com/rap_admin/addons/GIS/themes/global_options_edit.php on line 272

@@ -1,0 +1,42 @@
+<form >
+      <p align=center>
+        <table width=500px style='border: 1px solid black;'>
+          <tr><td align=center  bgcolor=\"#36648B\"><b><font color=white>Tell A Friend And 
+          Earn $<?=$sys_item_price;?></font></b></td></tr>
+          <tr><td>
+            <p>
+            Your Name:<br>
+            <input type=text id=sendername name=sendername size=30 maxlength=60>
+            </p>
+            <p>
+            Your PayPal Email Address:<br>
+            <input type=text id=senderpaypal name=senderpaypal size=40 >
+            </p>
+            <p>
+            Email Address #1:<br>
+            <input type=text id=senderemail name=\"senderemail[]\" size=40>
+            </p>
+            <p>
+            Email Address #2:<br>
+            <input type=text id=senderemail2 name=\"senderemail[]\" size=40>
+            </p>
+            <p>
+            Email Address #3:<br>
+            <input type=text id=senderemail3 name=\"senderemail[]\" size=40>
+            </p>
+            
+            <p align=center>
+              <b>You will not leave this page when you click the button.</b>
+            </p>
+            <p align=center>
+              <input type=button value='Email Them And Make Me Some Money!' onClick="javascript:aSend();">
+            </p>
+            <p align=center>
+              <font color=red><b>NOTICE:</b></font> We <b>HATE</b> SPAM, and will not 
+				reuse your friends email addresses for any other purpose.&nbsp; 
+				We won't even keep them on file.&nbsp; They will only receive 
+				this single email from us on your behalf.
+            </p>
+          </td></tr>
+        </table>
+      </form>

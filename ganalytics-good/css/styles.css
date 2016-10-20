@@ -1,0 +1,463 @@
+
+
+/* Div dimentions */
+
+#filelist { 
+	background-color:#FFFFFF;
+	/*display:inline;*/
+	width:300px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#filedetails { 
+	background-color:#FFFFFF;
+	display:inline-block;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#Filename { 
+	background-color:#ffeebb;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 22pt;
+	font-weight:bold;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	
+}
+
+#FileDescription { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+
+#buttonrow { 
+	background-color:#FFFFFF;
+	display:table-row;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+}
+
+#taglist { 
+	background-color:#FFFFFF;
+	/*display:inline;*/
+	width:500px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#tagdetails { 
+	background-color:#FFFFFF;
+	display:inline-block;
+	width:600px;
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+}
+
+#Tagname { 
+	background-color:#ffeebb;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: middle;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 22pt;
+	font-weight:bold;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	
+}
+
+#TagDescription { 
+	background-color:#EFFEFE;
+	display:table-row;
+	/* width: 60%; */
+	padding: 10px 20px 10px 20px;
+	vertical-align: top;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+#EditButton {
+	background: transparent url(../images/edit.png) no-repeat;
+	
+	width: 48px;
+	height: 48px;
+	
+}
+
+#CopyButton {
+	background: transparent url(../images/copy.png) no-repeat;
+	display:inline-block;
+	width: 48px;
+	height: 48px;
+	
+}
+
+#DeleteButton {
+	background: transparent url(../images/delete.png) no-repeat;
+	width: 48px;
+	height: 48px;
+	display:table-cell;
+}
+
+#tags {
+	font-size: 12pt;
+}
+
+/* Rounded Box CSS */
+div.rounded-box-green {
+    width: 80%;
+    background-color: #bbffbb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+div.rounded-box-red {
+    width: 80%;
+    background-color: #ffbbbb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+div.rounded-box {
+    width: 80%;
+    background-color: #ffeebb;
+    margin: 3px;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 14pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+}
+
+
+#submit{
+	font-weight:bold; 
+	font-size:14pt; 
+	padding:2px 15px 5px 15px; 
+	background-color:light-green; 
+	border:4px green solid;
+	height:40px
+}
+
+#cancel{
+	font-weight:bold; 
+	font-size:14pt; 
+	padding:2px 15px 5px 15px; 
+	background-color:light-red; 
+	border:4px red solid;
+	height:40px
+}
+
+
+input, select{
+	font-size:14pt; 
+	padding:2px
+}
+
+
+/* link formatting */
+
+a:active { 
+	outline: none; 
+}
+
+a:focus { 
+	-moz-outline-style: none; 
+}
+
+.subhead-big
+{
+	text-transform: capitalize;
+	font-family: "Trebuchet MS";
+	font-family: Tahoma;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.georgia-big
+{
+	text-transform: capitalize;
+	font-family: Georgia;
+	font-family: Arial;
+	font-size: 16pt;
+	word-spacing: -1px;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+
+
+.georgia {
+	font-family: Georgia;
+}
+
+.titles-big {
+	color: #333;
+	font-size: 24px;
+	margin-bottom:12px;
+}
+
+span.subheading-section {
+	text-transform: capitalize;
+	font-family: Georgia;
+	font-size: 16pt;
+}
+
+
+div.buttons_open {
+	background: transparent url(../images/Folder%20Open.png) no-repeat 0px 0px;
+	padding-left: 55px;
+	display:block;
+	width: 33px;
+	height: 33px;
+}
+
+div.buttons_edit {
+	background: transparent url(../images/Applications%202.png) no-repeat 0px 0px;
+	padding-left: 55px;
+	display:block;
+	width: 33px;
+	height: 33px;
+}
+
+div.gis-container-global, div.gis-container-products, div.gis-section {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+div.gis-section {
+	background: transparent url(../images/2265500_1253295923_master.png) repeat-x;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+/* font styling */
+.b { 
+	font-weight: bold;
+}
+
+.i { 
+	font-style: italic; 
+}
+
+
+div.gis-container-global, div.gis-container-products {
+	border-bottom: 1px dotted silver;
+}
+
+div.gis-content {
+	margin-left: 0px;
+}
+
+.clear-fix {
+	clear:both;
+}
+
+.hilite-yellow{ 
+	background-color:#ffffcc; 
+	border:1px dotted silver;
+}
+
+.hilite-yellow-noborder{ 
+	background-color:#ffffcc; 
+	border:0px dotted silver;
+}
+
+
+
+
+/* Alignment Classes */
+.tright { 
+	text-align: right; 
+}
+
+.tleft { 
+	text-align: left; 
+}
+
+.right { 
+	float: right; 
+}
+
+.left { 
+	float: left; 
+}
+
+.content-wrapper { 
+	width: 100%; 
+}
+
+.content-wrapper { 	
+	clear: both; 
+}
+
+.main { 
+	text-align: left; 
+ 	margin-bottom: 20px; 
+}
+
+/* margins and padding */
+.margin-tb-15 { 
+	margin-top: 	15px; 
+	margin-bottom: 	15px; 
+}
+
+.padding-rl-20 { 
+	padding-right:	20px;  
+	padding-left:	20px; 
+}
+
+.padding-rl-10 { 
+	padding-right:	10px;  
+	padding-left:	10px; 
+}
+
+/* colors */
+.gray { 
+	color: #888; 
+}
+
+.darkred { 
+	color: #cc0000; 
+}
+
+.brightblue { 
+	color: #0fbbff; 
+}
+
+.green{
+	color:green
+}
+
+.red{
+	color:red
+}
+
+
+/*----------------------------------------------
+
+		rnded corner buttons
+
+------------------------------------------------*/
+
+
+.smallbutton-text {
+	font-family: 'Trebuchet MS',Arial,Georgia;
+	font-size: 12pt;
+	line-height: 130%;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+/* for large buttons */
+.image, .image-medium, .image-small {
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	padding: 5px 5px;
+}
+
+.image img {
+	display: block;
+}
+
+
+
+
+/* simple pager jquery css */
+
+ul.simplePagerNav li{
+    display:block;
+    float: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS";
+	font-size: 11pt;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+ul.simplePagerNav li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li.currentPage {
+	background: red;
+    background: #83bd63;	
+}
+
+ul.simplePagerPerPage li{
+    display:block;
+    float: left;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS";
+	font-size: 11pt;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+ul.simplePagerPerPage li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li.currentPerPage {
+	background: #cc0000;
+	background: #3DB3C2;
+/*
+    background: #83bd63;	
+*/
+}
+
+ul.simplePagerNav li.currentPage a, ul.simplePagerPerPage li.currentPerPage a {
+	color: #fff;	
+}
+
+table.pageme {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}  
+
+table.pageme td {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}      
+
